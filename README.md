@@ -8,6 +8,8 @@ Please see this repo's [wiki](https://github.com/bnjy-opengov/chi-solicitations-
 initial setup 
 =================
 
+Install firefox - http://www.mozilla.org/en-US/firefox/new/
+
 mac os x
 ---------
 Libraries for this app will be managed with pip and virtualenv.  If they aren't installed open a command prompt and run the following:
