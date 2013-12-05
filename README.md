@@ -5,13 +5,13 @@ Wrapping the City of Chicago's publishing of solicitations in a machine-readable
 
 Please see this repo's [wiki](https://github.com/bnjy-opengov/chi-solicitations-feed/wiki/Background) for more information.
 
-initial setup 
-=================
+Initial Setup
+=============
 
-Install firefox - http://www.mozilla.org/en-US/firefox/new/
+Install Firefox - http://www.mozilla.org/en-US/firefox/new/
 
-mac os x
----------
+Mac OS X & Ubuntu
+-----------------
 Libraries for this app will be managed with pip and virtualenv.  If they aren't installed open a command prompt and run the following:
 
 ```
@@ -33,14 +33,10 @@ To run the application from the command line run:
 python driver.py
 ```
 
-ubuntu
-------
-hmmmm...
 
-windows
+Windows
 --------
-hmmmm...
-
+There is a very easy to follow guide to installing Python and Selenium for Windows at the [Selenium Python Bindings documentation site](http://selenium-python.readthedocs.org/en/latest/installation.html#detailed-instructions-for-windows-users).
 
 
 
