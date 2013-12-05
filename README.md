@@ -36,7 +36,7 @@ python driver.py
 
 Windows
 --------
-There is a very easy to follow guide to installing Python and Selenium for Windows at the [Selenium Python Bindings documentation site](http://selenium-python.readthedocs.org/en/latest/installation.html#detailed-instructions-for-windows-users).
+There is a very easy to follow guide to installing Python and [Selenium](http://docs.seleniumhq.org/) for Windows at the [Selenium Python Bindings documentation site](http://selenium-python.readthedocs.org/en/latest/installation.html#detailed-instructions-for-windows-users).
 
 
 
