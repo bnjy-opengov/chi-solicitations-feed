@@ -1,0 +1,2 @@
+EasyProcess==0.1.6
+PyVirtualDisplay==0.1.2
