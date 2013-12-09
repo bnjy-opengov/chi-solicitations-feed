@@ -1,4 +1,3 @@
-__author__ = 'bkalantzis'
 from selenium import webdriver
 from pprint import pprint
 
