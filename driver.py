@@ -3,9 +3,16 @@ import contextlib
 import json
 # Third Party Module Imports
 from selenium import webdriver
+# Local Imports
+from local_settings import IS_DEPLOYED_ON_EC2
 
 
 def get_business_bids():
+    if IS_DEPLOYED_ON_EC2:
+        from pyvirtualdisplay import Display
+        display = Display(visible = 0, size = (800, 600))
+        display.start()
+
     browser_engine = webdriver.Firefox
 
     with contextlib.closing(browser_engine()) as browser:
