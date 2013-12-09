@@ -3,15 +3,10 @@ import contextlib
 import json
 # Third Party Module Imports
 from selenium import webdriver
-# Local Imports
-from local_settings import USE_PHANTOMJS
 
 
 def get_business_bids():
-    if USE_PHANTOMJS:
-        browser_engine = webdriver.PhantomJS
-    else:
-        browser_engine = webdriver.Firefox
+    browser_engine = webdriver.Firefox
 
     with contextlib.closing(browser_engine()) as browser:
         browser.get('https://webapps1.cityofchicago.org/VCSearchWeb/org/cityofchicago/vcsearch/controller/solicitations/begin.do?agencyId=city')
