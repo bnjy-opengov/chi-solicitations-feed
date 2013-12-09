@@ -2,14 +2,19 @@ __author__ = 'bkalantzis'
 from selenium import webdriver
 from pprint import pprint
 
+from local_settings import USE_PHANTOMJS
+
 to_date_id = 'toDateId'
 from_date_id = 'fromDateId'
 bid_option_xpath = '//option[@value="Bid"]'
 search_button_xpath = '//input[@alt="search button"]'
 print_version_image_xpath = '//img[@src="/VCSearchWeb/org/cityofchicago/vcsearch/controller/solicitations/../../../../../resources/images/print_version.gif"]'
 
+if USE_PHANTOMJS:
+    browser = webdriver.PhantomJS()
+else:
+    browser = webdriver.Firefox()
 
-browser = webdriver.Firefox()
 browser.get('https://webapps1.cityofchicago.org/VCSearchWeb/org/cityofchicago/vcsearch/controller/solicitations/begin.do?agencyId=city')
 bid_option = browser.find_element_by_xpath(bid_option_xpath)
 bid_option.click()
