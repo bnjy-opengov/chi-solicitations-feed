@@ -1,9 +1,16 @@
 chi-solicitations-feed
 ======================
 
-Wrapping the City of Chicago's publishing of solicitations in a machine-readable way.
+The City of Chicago publishes [vendor, contract, and payment information](https://webapps1.cityofchicago.org/VCSearchWeb/org/cityofchicago/vcsearch/controller/agencySelection/begin.do?agencyId=city) but the data is hidden behind a search form and formatted in a human-readable format. We are interested in liberating this data in a machine-readable format such as JSON so that it can be consumed by other applications.
 
-Please see this repo's [wiki](https://github.com/bnjy-opengov/chi-solicitations-feed/wiki) for more information.
+* [Solicitations](https://webapps1.cityofchicago.org/VCSearchWeb/org/cityofchicago/vcsearch/controller/solicitations/begin.do?agencyId=city) - This website distinguishes solicitations into several types: bids, construction, demolition, proposal, and salvage
+
+Technology
+==========
+
+* [Web Automation and Capture](https://github.com/bnjy-opengov/chi-solicitations-feed/wiki/Web-Automation-and-Capture)
+* [HTML Scraping](https://github.com/bnjy-opengov/chi-solicitations-feed/wiki/HTML-Scraping)
+* [Setup on Amazon EC2](https://github.com/bnjy-opengov/chi-solicitations-feed/wiki/Setup-on-Amazon-EC2)
 
 Initial Setup
 =============
