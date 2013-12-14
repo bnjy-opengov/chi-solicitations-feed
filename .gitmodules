@@ -1,3 +1,6 @@
 [submodule "tothebeat-fork"]
 	path = tothebeat-fork
 	url = git@github.com:tothebeat/chi-solicitations-feed.git
+[submodule "pebreo-fork"]
+	path = pebreo-fork
+	url = https://github.com/pebreo/chi-solicitations-feed
