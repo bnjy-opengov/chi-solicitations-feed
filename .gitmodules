@@ -1,0 +1,3 @@
+[submodule "tothebeat-fork"]
+	path = tothebeat-fork
+	url = git@github.com:tothebeat/chi-solicitations-feed.git
