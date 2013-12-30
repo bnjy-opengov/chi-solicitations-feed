@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/bnjy-opengov/chi-solicitations-feed.png?label=ready)](https://waffle.io/bnjy-opengov/chi-solicitations-feed)  
 chi-solicitations-feed
 ======================
 
